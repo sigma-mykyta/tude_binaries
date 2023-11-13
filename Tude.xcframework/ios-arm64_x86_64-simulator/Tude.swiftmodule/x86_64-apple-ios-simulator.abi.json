@@ -1,0 +1,4566 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Tude"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Tude"
+      },
+      {
+        "kind": "Import",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
+        "declKind": "Import",
+        "moduleName": "Tude"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AditudeWrapper",
+        "printedName": "AditudeWrapper",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "setShareGeoLocation",
+            "printedName": "setShareGeoLocation(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Tude@objc(cs)AditudeWrapper(cm)setShareGeoLocation:",
+            "mangledName": "$s4Tude14AditudeWrapperC19setShareGeoLocationyySbFZ",
+            "moduleName": "Tude",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setPubApiKey",
+            "printedName": "setPubApiKey(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Tude@objc(cs)AditudeWrapper(cm)setPubApiKey:",
+            "mangledName": "$s4Tude14AditudeWrapperC12setPubApiKeyyySSFZ",
+            "moduleName": "Tude",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "initialize",
+            "printedName": "initialize(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Tude@objc(cs)AditudeWrapper(cm)initialize:",
+            "mangledName": "$s4Tude14AditudeWrapperC10initializeyyyycFZ",
+            "moduleName": "Tude",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "initializeWithoutCallback",
+            "printedName": "initializeWithoutCallback()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Tude@objc(cs)AditudeWrapper(cm)initializeWithoutCallback",
+            "mangledName": "$s4Tude14AditudeWrapperC25initializeWithoutCallbackyyFZ",
+            "moduleName": "Tude",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "cmd",
+            "printedName": "cmd(_:command:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Tude.AditudeWrapper) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AditudeWrapper",
+                    "printedName": "Tude.AditudeWrapper",
+                    "usr": "c:@M@Tude@objc(cs)AditudeWrapper"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Tude@objc(cs)AditudeWrapper(cm)cmd:command:",
+            "mangledName": "$s4Tude14AditudeWrapperC3cmd_7commandySo16UIViewControllerC_yACctFZ",
+            "moduleName": "Tude",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "renderBannerAds",
+            "printedName": "renderBannerAds(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Tude@objc(cs)AditudeWrapper(im)renderBannerAds:",
+            "mangledName": "$s4Tude14AditudeWrapperC15renderBannerAdsyySo16UIViewControllerCF",
+            "moduleName": "Tude",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "createBannerAdView",
+            "printedName": "createBannerAdView(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Tude.BannerAdView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BannerAdView",
+                    "printedName": "Tude.BannerAdView",
+                    "usr": "c:@M@Tude@objc(cs)BannerAdView"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Tude@objc(cs)AditudeWrapper(im)createBannerAdView::",
+            "mangledName": "$s4Tude14AditudeWrapperC18createBannerAdViewyAA0efG0CSgSo16UIViewControllerC_SStF",
+            "moduleName": "Tude",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getRewardedVideoAd",
+            "printedName": "getRewardedVideoAd(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Tude.RewardedVideoAd?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RewardedVideoAd",
+                    "printedName": "Tude.RewardedVideoAd",
+                    "usr": "c:@M@Tude@objc(cs)RewardedVideoAd"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Tude@objc(cs)AditudeWrapper(im)getRewardedVideoAd:",
+            "mangledName": "$s4Tude14AditudeWrapperC18getRewardedVideoAdyAA0efG0CSgSSF",
+            "moduleName": "Tude",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AditudeWrapper",
+                "printedName": "Tude.AditudeWrapper",
+                "usr": "c:@M@Tude@objc(cs)AditudeWrapper"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@Tude@objc(cs)AditudeWrapper(im)init",
+            "mangledName": "$s4Tude14AditudeWrapperCACycfc",
+            "moduleName": "Tude",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@Tude@objc(cs)AditudeWrapper",
+        "mangledName": "$s4Tude14AditudeWrapperC",
+        "moduleName": "Tude",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Tude"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Tude"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Tude"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Tude"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Tude"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RewardItem",
+        "printedName": "RewardItem",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "type",
+            "printedName": "type",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:4Tude10RewardItemC4typeSSvp",
+            "mangledName": "$s4Tude10RewardItemC4typeSSvp",
+            "moduleName": "Tude",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4Tude10RewardItemC4typeSSvg",
+                "mangledName": "$s4Tude10RewardItemC4typeSSvg",
+                "moduleName": "Tude",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "amount",
+            "printedName": "amount",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:4Tude10RewardItemC6amountSdvp",
+            "mangledName": "$s4Tude10RewardItemC6amountSdvp",
+            "moduleName": "Tude",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4Tude10RewardItemC6amountSdvg",
+                "mangledName": "$s4Tude10RewardItemC6amountSdvg",
+                "moduleName": "Tude",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:4Tude10RewardItemC",
+        "mangledName": "$s4Tude10RewardItemC",
+        "moduleName": "Tude",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Tude"
+      },
+      {
+        "kind": "Import",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
+        "declKind": "Import",
+        "moduleName": "Tude"
+      },
+      {
+        "kind": "Import",
+        "name": "PrebidMobile",
+        "printedName": "PrebidMobile",
+        "declKind": "Import",
+        "moduleName": "Tude"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Tude"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Tude"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Tude"
+      },
+      {
+        "kind": "Import",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
+        "declKind": "Import",
+        "moduleName": "Tude"
+      },
+      {
+        "kind": "Import",
+        "name": "PrebidMobile",
+        "printedName": "PrebidMobile",
+        "declKind": "Import",
+        "moduleName": "Tude"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BannerAdView",
+        "printedName": "BannerAdView",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "onAdLoaded",
+            "printedName": "onAdLoaded",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Tude@objc(cs)BannerAdView(py)onAdLoaded",
+            "mangledName": "$s4Tude12BannerAdViewC02onC6LoadedyycSgvp",
+            "moduleName": "Tude",
+            "declAttributes": [
+              "HasInitialValue",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Tude@objc(cs)BannerAdView(im)onAdLoaded",
+                "mangledName": "$s4Tude12BannerAdViewC02onC6LoadedyycSgvg",
+                "moduleName": "Tude",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Tude@objc(cs)BannerAdView(im)setOnAdLoaded:",
+                "mangledName": "$s4Tude12BannerAdViewC02onC6LoadedyycSgvs",
+                "moduleName": "Tude",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4Tude12BannerAdViewC02onC6LoadedyycSgvM",
+                "mangledName": "$s4Tude12BannerAdViewC02onC6LoadedyycSgvM",
+                "moduleName": "Tude",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "onAdLoadingError",
+            "printedName": "onAdLoadingError",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.String) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Tude@objc(cs)BannerAdView(py)onAdLoadingError",
+            "mangledName": "$s4Tude12BannerAdViewC02onC12LoadingErrorySScSgvp",
+            "moduleName": "Tude",
+            "declAttributes": [
+              "HasInitialValue",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Swift.String) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.String) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Tude@objc(cs)BannerAdView(im)onAdLoadingError",
+                "mangledName": "$s4Tude12BannerAdViewC02onC12LoadingErrorySScSgvg",
+                "moduleName": "Tude",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Swift.String) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.String) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Tude@objc(cs)BannerAdView(im)setOnAdLoadingError:",
+                "mangledName": "$s4Tude12BannerAdViewC02onC12LoadingErrorySScSgvs",
+                "moduleName": "Tude",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4Tude12BannerAdViewC02onC12LoadingErrorySScSgvM",
+                "mangledName": "$s4Tude12BannerAdViewC02onC12LoadingErrorySScSgvM",
+                "moduleName": "Tude",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "onAdClicked",
+            "printedName": "onAdClicked",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Tude@objc(cs)BannerAdView(py)onAdClicked",
+            "mangledName": "$s4Tude12BannerAdViewC02onC7ClickedyycSgvp",
+            "moduleName": "Tude",
+            "declAttributes": [
+              "HasInitialValue",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Tude@objc(cs)BannerAdView(im)onAdClicked",
+                "mangledName": "$s4Tude12BannerAdViewC02onC7ClickedyycSgvg",
+                "moduleName": "Tude",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Tude@objc(cs)BannerAdView(im)setOnAdClicked:",
+                "mangledName": "$s4Tude12BannerAdViewC02onC7ClickedyycSgvs",
+                "moduleName": "Tude",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4Tude12BannerAdViewC02onC7ClickedyycSgvM",
+                "mangledName": "$s4Tude12BannerAdViewC02onC7ClickedyycSgvM",
+                "moduleName": "Tude",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "onAdImpression",
+            "printedName": "onAdImpression",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Tude@objc(cs)BannerAdView(py)onAdImpression",
+            "mangledName": "$s4Tude12BannerAdViewC02onC10ImpressionyycSgvp",
+            "moduleName": "Tude",
+            "declAttributes": [
+              "HasInitialValue",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Tude@objc(cs)BannerAdView(im)onAdImpression",
+                "mangledName": "$s4Tude12BannerAdViewC02onC10ImpressionyycSgvg",
+                "moduleName": "Tude",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Tude@objc(cs)BannerAdView(im)setOnAdImpression:",
+                "mangledName": "$s4Tude12BannerAdViewC02onC10ImpressionyycSgvs",
+                "moduleName": "Tude",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4Tude12BannerAdViewC02onC10ImpressionyycSgvM",
+                "mangledName": "$s4Tude12BannerAdViewC02onC10ImpressionyycSgvM",
+                "moduleName": "Tude",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "onAdOpened",
+            "printedName": "onAdOpened",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Tude@objc(cs)BannerAdView(py)onAdOpened",
+            "mangledName": "$s4Tude12BannerAdViewC02onC6OpenedyycSgvp",
+            "moduleName": "Tude",
+            "declAttributes": [
+              "HasInitialValue",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Tude@objc(cs)BannerAdView(im)onAdOpened",
+                "mangledName": "$s4Tude12BannerAdViewC02onC6OpenedyycSgvg",
+                "moduleName": "Tude",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Tude@objc(cs)BannerAdView(im)setOnAdOpened:",
+                "mangledName": "$s4Tude12BannerAdViewC02onC6OpenedyycSgvs",
+                "moduleName": "Tude",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4Tude12BannerAdViewC02onC6OpenedyycSgvM",
+                "mangledName": "$s4Tude12BannerAdViewC02onC6OpenedyycSgvM",
+                "moduleName": "Tude",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "onAdClosed",
+            "printedName": "onAdClosed",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Tude@objc(cs)BannerAdView(py)onAdClosed",
+            "mangledName": "$s4Tude12BannerAdViewC02onC6ClosedyycSgvp",
+            "moduleName": "Tude",
+            "declAttributes": [
+              "HasInitialValue",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Tude@objc(cs)BannerAdView(im)onAdClosed",
+                "mangledName": "$s4Tude12BannerAdViewC02onC6ClosedyycSgvg",
+                "moduleName": "Tude",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Tude@objc(cs)BannerAdView(im)setOnAdClosed:",
+                "mangledName": "$s4Tude12BannerAdViewC02onC6ClosedyycSgvs",
+                "moduleName": "Tude",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4Tude12BannerAdViewC02onC6ClosedyycSgvM",
+                "mangledName": "$s4Tude12BannerAdViewC02onC6ClosedyycSgvM",
+                "moduleName": "Tude",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "adSlot",
+            "printedName": "adSlot",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Tude@objc(cs)BannerAdView(py)adSlot",
+            "mangledName": "$s4Tude12BannerAdViewC6adSlotSSSgvp",
+            "moduleName": "Tude",
+            "declAttributes": [
+              "HasInitialValue",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "IBInspectable",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Tude@objc(cs)BannerAdView(im)adSlot",
+                "mangledName": "$s4Tude12BannerAdViewC6adSlotSSSgvg",
+                "moduleName": "Tude",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Tude@objc(cs)BannerAdView(im)setAdSlot:",
+                "mangledName": "$s4Tude12BannerAdViewC6adSlotSSSgvs",
+                "moduleName": "Tude",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4Tude12BannerAdViewC6adSlotSSSgvM",
+                "mangledName": "$s4Tude12BannerAdViewC6adSlotSSSgvM",
+                "moduleName": "Tude",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "load",
+            "printedName": "load(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Tude@objc(cs)BannerAdView(im)load:",
+            "mangledName": "$s4Tude12BannerAdViewC4loadyySo16UIViewControllerCF",
+            "moduleName": "Tude",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "bannerViewDidReceiveAd",
+            "printedName": "bannerViewDidReceiveAd(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GADBannerView",
+                "printedName": "GoogleMobileAds.GADBannerView",
+                "usr": "c:objc(cs)GADBannerView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@Tude@objc(cs)BannerAdView(im)bannerViewDidReceiveAd:",
+            "mangledName": "$s4Tude12BannerAdViewC06bannerd10DidReceiveC0yySo09GADBannerD0CF",
+            "moduleName": "Tude",
+            "objc_name": "bannerViewDidReceiveAd:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "bannerView",
+            "printedName": "bannerView(_:didFailToReceiveAdWithError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GADBannerView",
+                "printedName": "GoogleMobileAds.GADBannerView",
+                "usr": "c:objc(cs)GADBannerView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@Tude@objc(cs)BannerAdView(im)bannerView:didFailToReceiveAdWithError:",
+            "mangledName": "$s4Tude12BannerAdViewC06bannerD0_016didFailToReceiveC9WithErrorySo09GADBannerD0C_s0K0_ptF",
+            "moduleName": "Tude",
+            "objc_name": "bannerView:didFailToReceiveAdWithError:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "bannerViewDidRecordClick",
+            "printedName": "bannerViewDidRecordClick(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GADBannerView",
+                "printedName": "GoogleMobileAds.GADBannerView",
+                "usr": "c:objc(cs)GADBannerView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@Tude@objc(cs)BannerAdView(im)bannerViewDidRecordClick:",
+            "mangledName": "$s4Tude12BannerAdViewC06bannerD14DidRecordClickyySo09GADBannerD0CF",
+            "moduleName": "Tude",
+            "objc_name": "bannerViewDidRecordClick:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "bannerViewDidRecordImpression",
+            "printedName": "bannerViewDidRecordImpression(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GADBannerView",
+                "printedName": "GoogleMobileAds.GADBannerView",
+                "usr": "c:objc(cs)GADBannerView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@Tude@objc(cs)BannerAdView(im)bannerViewDidRecordImpression:",
+            "mangledName": "$s4Tude12BannerAdViewC06bannerD19DidRecordImpressionyySo09GADBannerD0CF",
+            "moduleName": "Tude",
+            "objc_name": "bannerViewDidRecordImpression:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "bannerViewWillPresentScreen",
+            "printedName": "bannerViewWillPresentScreen(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GADBannerView",
+                "printedName": "GoogleMobileAds.GADBannerView",
+                "usr": "c:objc(cs)GADBannerView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@Tude@objc(cs)BannerAdView(im)bannerViewWillPresentScreen:",
+            "mangledName": "$s4Tude12BannerAdViewC06bannerD17WillPresentScreenyySo09GADBannerD0CF",
+            "moduleName": "Tude",
+            "objc_name": "bannerViewWillPresentScreen:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "bannerViewDidDismissScreen",
+            "printedName": "bannerViewDidDismissScreen(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GADBannerView",
+                "printedName": "GoogleMobileAds.GADBannerView",
+                "usr": "c:objc(cs)GADBannerView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@Tude@objc(cs)BannerAdView(im)bannerViewDidDismissScreen:",
+            "mangledName": "$s4Tude12BannerAdViewC06bannerD16DidDismissScreenyySo09GADBannerD0CF",
+            "moduleName": "Tude",
+            "objc_name": "bannerViewDidDismissScreen:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@Tude@objc(cs)BannerAdView",
+        "mangledName": "$s4Tude12BannerAdViewC",
+        "moduleName": "Tude",
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIView",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Tude"
+      },
+      {
+        "kind": "Import",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
+        "declKind": "Import",
+        "moduleName": "Tude"
+      },
+      {
+        "kind": "Import",
+        "name": "PrebidMobile",
+        "printedName": "PrebidMobile",
+        "declKind": "Import",
+        "moduleName": "Tude"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RewardedVideoAd",
+        "printedName": "RewardedVideoAd",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "onAdLoadingError",
+            "printedName": "onAdLoadingError",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.String) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Tude@objc(cs)RewardedVideoAd(py)onAdLoadingError",
+            "mangledName": "$s4Tude15RewardedVideoAdC02onD12LoadingErrorySScSgvp",
+            "moduleName": "Tude",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Swift.String) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.String) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Tude@objc(cs)RewardedVideoAd(im)onAdLoadingError",
+                "mangledName": "$s4Tude15RewardedVideoAdC02onD12LoadingErrorySScSgvg",
+                "moduleName": "Tude",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Swift.String) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.String) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Tude@objc(cs)RewardedVideoAd(im)setOnAdLoadingError:",
+                "mangledName": "$s4Tude15RewardedVideoAdC02onD12LoadingErrorySScSgvs",
+                "moduleName": "Tude",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4Tude15RewardedVideoAdC02onD12LoadingErrorySScSgvM",
+                "mangledName": "$s4Tude15RewardedVideoAdC02onD12LoadingErrorySScSgvM",
+                "moduleName": "Tude",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "onAdDidDismissFullScreenContent",
+            "printedName": "onAdDidDismissFullScreenContent",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Tude@objc(cs)RewardedVideoAd(py)onAdDidDismissFullScreenContent",
+            "mangledName": "$s4Tude15RewardedVideoAdC02onD27DidDismissFullScreenContentyycSgvp",
+            "moduleName": "Tude",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Tude@objc(cs)RewardedVideoAd(im)onAdDidDismissFullScreenContent",
+                "mangledName": "$s4Tude15RewardedVideoAdC02onD27DidDismissFullScreenContentyycSgvg",
+                "moduleName": "Tude",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Tude@objc(cs)RewardedVideoAd(im)setOnAdDidDismissFullScreenContent:",
+                "mangledName": "$s4Tude15RewardedVideoAdC02onD27DidDismissFullScreenContentyycSgvs",
+                "moduleName": "Tude",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4Tude15RewardedVideoAdC02onD27DidDismissFullScreenContentyycSgvM",
+                "mangledName": "$s4Tude15RewardedVideoAdC02onD27DidDismissFullScreenContentyycSgvM",
+                "moduleName": "Tude",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "onAdDidFailToPresentFullScreenWithError",
+            "printedName": "onAdDidFailToPresentFullScreenWithError",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Error) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Error) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Tude@objc(cs)RewardedVideoAd(py)onAdDidFailToPresentFullScreenWithError",
+            "mangledName": "$s4Tude15RewardedVideoAdC02onD35DidFailToPresentFullScreenWithErrorys0M0_pcSgvp",
+            "moduleName": "Tude",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Swift.Error) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.Error) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Tude@objc(cs)RewardedVideoAd(im)onAdDidFailToPresentFullScreenWithError",
+                "mangledName": "$s4Tude15RewardedVideoAdC02onD35DidFailToPresentFullScreenWithErrorys0M0_pcSgvg",
+                "moduleName": "Tude",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Swift.Error) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.Error) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Tude@objc(cs)RewardedVideoAd(im)setOnAdDidFailToPresentFullScreenWithError:",
+                "mangledName": "$s4Tude15RewardedVideoAdC02onD35DidFailToPresentFullScreenWithErrorys0M0_pcSgvs",
+                "moduleName": "Tude",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4Tude15RewardedVideoAdC02onD35DidFailToPresentFullScreenWithErrorys0M0_pcSgvM",
+                "mangledName": "$s4Tude15RewardedVideoAdC02onD35DidFailToPresentFullScreenWithErrorys0M0_pcSgvM",
+                "moduleName": "Tude",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "onAdClicked",
+            "printedName": "onAdClicked",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Tude@objc(cs)RewardedVideoAd(py)onAdClicked",
+            "mangledName": "$s4Tude15RewardedVideoAdC02onD7ClickedyycSgvp",
+            "moduleName": "Tude",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Tude@objc(cs)RewardedVideoAd(im)onAdClicked",
+                "mangledName": "$s4Tude15RewardedVideoAdC02onD7ClickedyycSgvg",
+                "moduleName": "Tude",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Tude@objc(cs)RewardedVideoAd(im)setOnAdClicked:",
+                "mangledName": "$s4Tude15RewardedVideoAdC02onD7ClickedyycSgvs",
+                "moduleName": "Tude",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4Tude15RewardedVideoAdC02onD7ClickedyycSgvM",
+                "mangledName": "$s4Tude15RewardedVideoAdC02onD7ClickedyycSgvM",
+                "moduleName": "Tude",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "onAdDidRecordImpression",
+            "printedName": "onAdDidRecordImpression",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Tude@objc(cs)RewardedVideoAd(py)onAdDidRecordImpression",
+            "mangledName": "$s4Tude15RewardedVideoAdC02onD19DidRecordImpressionyycSgvp",
+            "moduleName": "Tude",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Tude@objc(cs)RewardedVideoAd(im)onAdDidRecordImpression",
+                "mangledName": "$s4Tude15RewardedVideoAdC02onD19DidRecordImpressionyycSgvg",
+                "moduleName": "Tude",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Tude@objc(cs)RewardedVideoAd(im)setOnAdDidRecordImpression:",
+                "mangledName": "$s4Tude15RewardedVideoAdC02onD19DidRecordImpressionyycSgvs",
+                "moduleName": "Tude",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4Tude15RewardedVideoAdC02onD19DidRecordImpressionyycSgvM",
+                "mangledName": "$s4Tude15RewardedVideoAdC02onD19DidRecordImpressionyycSgvM",
+                "moduleName": "Tude",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "onAdWillPresentFullScreenContent",
+            "printedName": "onAdWillPresentFullScreenContent",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Tude@objc(cs)RewardedVideoAd(py)onAdWillPresentFullScreenContent",
+            "mangledName": "$s4Tude15RewardedVideoAdC02onD28WillPresentFullScreenContentyycSgvp",
+            "moduleName": "Tude",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Tude@objc(cs)RewardedVideoAd(im)onAdWillPresentFullScreenContent",
+                "mangledName": "$s4Tude15RewardedVideoAdC02onD28WillPresentFullScreenContentyycSgvg",
+                "moduleName": "Tude",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Tude@objc(cs)RewardedVideoAd(im)setOnAdWillPresentFullScreenContent:",
+                "mangledName": "$s4Tude15RewardedVideoAdC02onD28WillPresentFullScreenContentyycSgvs",
+                "moduleName": "Tude",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4Tude15RewardedVideoAdC02onD28WillPresentFullScreenContentyycSgvM",
+                "mangledName": "$s4Tude15RewardedVideoAdC02onD28WillPresentFullScreenContentyycSgvM",
+                "moduleName": "Tude",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "onAdWillDismissFullScreenContent",
+            "printedName": "onAdWillDismissFullScreenContent",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Tude@objc(cs)RewardedVideoAd(py)onAdWillDismissFullScreenContent",
+            "mangledName": "$s4Tude15RewardedVideoAdC02onD28WillDismissFullScreenContentyycSgvp",
+            "moduleName": "Tude",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Tude@objc(cs)RewardedVideoAd(im)onAdWillDismissFullScreenContent",
+                "mangledName": "$s4Tude15RewardedVideoAdC02onD28WillDismissFullScreenContentyycSgvg",
+                "moduleName": "Tude",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Tude@objc(cs)RewardedVideoAd(im)setOnAdWillDismissFullScreenContent:",
+                "mangledName": "$s4Tude15RewardedVideoAdC02onD28WillDismissFullScreenContentyycSgvs",
+                "moduleName": "Tude",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4Tude15RewardedVideoAdC02onD28WillDismissFullScreenContentyycSgvM",
+                "mangledName": "$s4Tude15RewardedVideoAdC02onD28WillDismissFullScreenContentyycSgvM",
+                "moduleName": "Tude",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "preload",
+            "printedName": "preload(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Tude@objc(cs)RewardedVideoAd(im)preload:",
+            "mangledName": "$s4Tude15RewardedVideoAdC7preloadyySo16UIViewControllerCF",
+            "moduleName": "Tude",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "preload",
+            "printedName": "preload(_:onAdLoaded:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Tude.RewardedVideoAd) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RewardedVideoAd",
+                    "printedName": "Tude.RewardedVideoAd",
+                    "usr": "c:@M@Tude@objc(cs)RewardedVideoAd"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Tude@objc(cs)RewardedVideoAd(im)preload:onAdLoaded:",
+            "mangledName": "$s4Tude15RewardedVideoAdC7preload_02onD6LoadedySo16UIViewControllerC_yACctF",
+            "moduleName": "Tude",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "render",
+            "printedName": "render(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Tude@objc(cs)RewardedVideoAd(im)render:",
+            "mangledName": "$s4Tude15RewardedVideoAdC6renderyySo16UIViewControllerCF",
+            "moduleName": "Tude",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "render",
+            "printedName": "render(_:rewardHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "RewardHandler",
+                "printedName": "Tude.RewardHandler",
+                "usr": "c:@M@Tude@objc(cs)RewardHandler"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Tude@objc(cs)RewardedVideoAd(im)render:rewardHandler:",
+            "mangledName": "$s4Tude15RewardedVideoAdC6render_13rewardHandlerySo16UIViewControllerC_AA06RewardG0CtF",
+            "moduleName": "Tude",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RewardedVideoAd",
+                "printedName": "Tude.RewardedVideoAd",
+                "usr": "c:@M@Tude@objc(cs)RewardedVideoAd"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@Tude@objc(cs)RewardedVideoAd(im)init",
+            "mangledName": "$s4Tude15RewardedVideoAdCACycfc",
+            "moduleName": "Tude",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "ad",
+            "printedName": "ad(_:didFailToPresentFullScreenContentWithError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GADFullScreenPresentingAd",
+                "printedName": "GoogleMobileAds.GADFullScreenPresentingAd",
+                "usr": "c:objc(pl)GADFullScreenPresentingAd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@Tude@objc(cs)RewardedVideoAd(im)ad:didFailToPresentFullScreenContentWithError:",
+            "mangledName": "$s4Tude15RewardedVideoAdC2ad_42didFailToPresentFullScreenContentWithErrorySo07GADFullk10PresentingD0_p_s0N0_ptF",
+            "moduleName": "Tude",
+            "objc_name": "ad:didFailToPresentFullScreenContentWithError:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "adDidRecordClick",
+            "printedName": "adDidRecordClick(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GADFullScreenPresentingAd",
+                "printedName": "GoogleMobileAds.GADFullScreenPresentingAd",
+                "usr": "c:objc(pl)GADFullScreenPresentingAd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@Tude@objc(cs)RewardedVideoAd(im)adDidRecordClick:",
+            "mangledName": "$s4Tude15RewardedVideoAdC16adDidRecordClickyySo023GADFullScreenPresentingD0_pF",
+            "moduleName": "Tude",
+            "objc_name": "adDidRecordClick:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "adDidRecordImpression",
+            "printedName": "adDidRecordImpression(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GADFullScreenPresentingAd",
+                "printedName": "GoogleMobileAds.GADFullScreenPresentingAd",
+                "usr": "c:objc(pl)GADFullScreenPresentingAd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@Tude@objc(cs)RewardedVideoAd(im)adDidRecordImpression:",
+            "mangledName": "$s4Tude15RewardedVideoAdC21adDidRecordImpressionyySo023GADFullScreenPresentingD0_pF",
+            "moduleName": "Tude",
+            "objc_name": "adDidRecordImpression:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "adDidDismissFullScreenContent",
+            "printedName": "adDidDismissFullScreenContent(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GADFullScreenPresentingAd",
+                "printedName": "GoogleMobileAds.GADFullScreenPresentingAd",
+                "usr": "c:objc(pl)GADFullScreenPresentingAd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@Tude@objc(cs)RewardedVideoAd(im)adDidDismissFullScreenContent:",
+            "mangledName": "$s4Tude15RewardedVideoAdC29adDidDismissFullScreenContentyySo07GADFulli10PresentingD0_pF",
+            "moduleName": "Tude",
+            "objc_name": "adDidDismissFullScreenContent:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "adWillDismissFullScreenContent",
+            "printedName": "adWillDismissFullScreenContent(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GADFullScreenPresentingAd",
+                "printedName": "GoogleMobileAds.GADFullScreenPresentingAd",
+                "usr": "c:objc(pl)GADFullScreenPresentingAd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@Tude@objc(cs)RewardedVideoAd(im)adWillDismissFullScreenContent:",
+            "mangledName": "$s4Tude15RewardedVideoAdC30adWillDismissFullScreenContentyySo07GADFulli10PresentingD0_pF",
+            "moduleName": "Tude",
+            "objc_name": "adWillDismissFullScreenContent:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "adWillPresentFullScreenContent",
+            "printedName": "adWillPresentFullScreenContent(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GADFullScreenPresentingAd",
+                "printedName": "GoogleMobileAds.GADFullScreenPresentingAd",
+                "usr": "c:objc(pl)GADFullScreenPresentingAd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@Tude@objc(cs)RewardedVideoAd(im)adWillPresentFullScreenContent:",
+            "mangledName": "$s4Tude15RewardedVideoAdC30adWillPresentFullScreenContentyySo07GADFulli10PresentingD0_pF",
+            "moduleName": "Tude",
+            "objc_name": "adWillPresentFullScreenContent:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@Tude@objc(cs)RewardedVideoAd",
+        "mangledName": "$s4Tude15RewardedVideoAdC",
+        "moduleName": "Tude",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RewardHandler",
+        "printedName": "RewardHandler",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "handler",
+            "printedName": "handler",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Tude.RewardItem) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RewardItem",
+                    "printedName": "Tude.RewardItem",
+                    "usr": "s:4Tude10RewardItemC"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:4Tude13RewardHandlerC7handleryyAA0B4ItemCcvp",
+            "mangledName": "$s4Tude13RewardHandlerC7handleryyAA0B4ItemCcvp",
+            "moduleName": "Tude",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Tude.RewardItem) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RewardItem",
+                        "printedName": "Tude.RewardItem",
+                        "usr": "s:4Tude10RewardItemC"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4Tude13RewardHandlerC7handleryyAA0B4ItemCcvg",
+                "mangledName": "$s4Tude13RewardHandlerC7handleryyAA0B4ItemCcvg",
+                "moduleName": "Tude",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RewardHandler",
+                "printedName": "Tude.RewardHandler",
+                "usr": "c:@M@Tude@objc(cs)RewardHandler"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Tude.RewardItem) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RewardItem",
+                    "printedName": "Tude.RewardItem",
+                    "usr": "s:4Tude10RewardItemC"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:4Tude13RewardHandlerCyACyAA0B4ItemCccfc",
+            "mangledName": "$s4Tude13RewardHandlerCyACyAA0B4ItemCccfc",
+            "moduleName": "Tude",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RewardHandler",
+                "printedName": "Tude.RewardHandler",
+                "usr": "c:@M@Tude@objc(cs)RewardHandler"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@Tude@objc(cs)RewardHandler(im)init",
+            "mangledName": "$s4Tude13RewardHandlerCACycfc",
+            "moduleName": "Tude",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@Tude@objc(cs)RewardHandler",
+        "mangledName": "$s4Tude13RewardHandlerC",
+        "moduleName": "Tude",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Tude"
+      },
+      {
+        "kind": "Import",
+        "name": "PrebidMobile",
+        "printedName": "PrebidMobile",
+        "declKind": "Import",
+        "moduleName": "Tude"
+      },
+      {
+        "kind": "Import",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
+        "declKind": "Import",
+        "moduleName": "Tude"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Tude"
+      },
+      {
+        "kind": "Import",
+        "name": "os",
+        "printedName": "os",
+        "declKind": "Import",
+        "moduleName": "Tude"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Tude"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Tude"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Tude"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Tude"
+      },
+      {
+        "kind": "Import",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
+        "declKind": "Import",
+        "moduleName": "Tude"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Tude"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/m.skrypchenko\/Downloads\/tude\/Tude\/AditudeWrapper.swift",
+      "kind": "Dictionary",
+      "offset": 438,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/m.skrypchenko\/Downloads\/tude\/Tude\/AditudeWrapper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 761,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/m.skrypchenko\/Downloads\/tude\/Tude\/AditudeWrapper.swift",
+      "kind": "StringLiteral",
+      "offset": 1326,
+      "length": 63,
+      "value": "\"Cannot initialize Aditude wrapper without setting the api key\""
+    },
+    {
+      "filePath": "\/Users\/m.skrypchenko\/Downloads\/tude\/Tude\/AditudeWrapper.swift",
+      "kind": "StringLiteral",
+      "offset": 1918,
+      "length": 63,
+      "value": "\"Cannot initialize Aditude wrapper without setting the api key\""
+    },
+    {
+      "filePath": "\/Users\/m.skrypchenko\/Downloads\/tude\/Tude\/AditudeWrapper.swift",
+      "kind": "StringLiteral",
+      "offset": 2796,
+      "length": 18,
+      "value": "\"Starting wrapper\""
+    },
+    {
+      "filePath": "\/Users\/m.skrypchenko\/Downloads\/tude\/Tude\/AditudeWrapper.swift",
+      "kind": "StringLiteral",
+      "offset": 2889,
+      "length": 122,
+      "value": "\"  Cannot start Tude wrapper without being given the publisher API key at least once before\""
+    },
+    {
+      "filePath": "\/Users\/m.skrypchenko\/Downloads\/tude\/Tude\/AditudeWrapper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4386,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/m.skrypchenko\/Downloads\/tude\/Tude\/AditudeWrapper.swift",
+      "kind": "StringLiteral",
+      "offset": 7236,
+      "length": 45,
+      "value": "\"Searching for adConfig for adSlot=\""
+    },
+    {
+      "filePath": "\/Users\/m.skrypchenko\/Downloads\/tude\/Tude\/AditudeWrapper.swift",
+      "kind": "StringLiteral",
+      "offset": 7280,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/m.skrypchenko\/Downloads\/tude\/Tude\/AditudeWrapper.swift",
+      "kind": "StringLiteral",
+      "offset": 7567,
+      "length": 37,
+      "value": "\"Found adConfig for adSlot=\""
+    },
+    {
+      "filePath": "\/Users\/m.skrypchenko\/Downloads\/tude\/Tude\/AditudeWrapper.swift",
+      "kind": "StringLiteral",
+      "offset": 7603,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/m.skrypchenko\/Downloads\/tude\/Tude\/AditudeWrapper.swift",
+      "kind": "StringLiteral",
+      "offset": 8359,
+      "length": 47,
+      "value": "\"Could not find adConfig for adSlot: \""
+    },
+    {
+      "filePath": "\/Users\/m.skrypchenko\/Downloads\/tude\/Tude\/AditudeWrapper.swift",
+      "kind": "StringLiteral",
+      "offset": 8405,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/m.skrypchenko\/Downloads\/tude\/Tude\/AditudeWrapper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8532,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/m.skrypchenko\/Downloads\/tude\/Tude\/AditudeWrapper.swift",
+      "kind": "Dictionary",
+      "offset": 8949,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/m.skrypchenko\/Downloads\/tude\/Tude\/AditudeWrapper.swift",
+      "kind": "StringLiteral",
+      "offset": 9229,
+      "length": 17,
+      "value": "\"No config found\""
+    },
+    {
+      "filePath": "\/Users\/m.skrypchenko\/Downloads\/tude\/Tude\/AditudeWrapper.swift",
+      "kind": "StringLiteral",
+      "offset": 212,
+      "length": 14,
+      "value": "\"Tude.AditudeWrapper\""
+    },
+    {
+      "filePath": "\/Users\/m.skrypchenko\/Downloads\/tude\/Tude\/Utils\/ViewUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 64,
+      "length": 16,
+      "value": "\"Tude View Util\""
+    },
+    {
+      "filePath": "\/Users\/m.skrypchenko\/Downloads\/tude\/Tude\/Bidders\/PrebidConfig.swift",
+      "kind": "BooleanLiteral",
+      "offset": 62,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/m.skrypchenko\/Downloads\/tude\/Tude\/Bidders\/PrebidConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 134,
+      "length": 52,
+      "value": "\"https:\/\/aditude.prebid-server.com\/openrtb2\/auction\""
+    },
+    {
+      "filePath": "\/Users\/m.skrypchenko\/Downloads\/tude\/Tude\/Bidders\/PrebidConfig.swift",
+      "kind": "BooleanLiteral",
+      "offset": 222,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/m.skrypchenko\/Downloads\/tude\/Tude\/Bidders\/PrebidConfig.swift",
+      "kind": "IntegerLiteral",
+      "offset": 261,
+      "length": 4,
+      "value": "3000"
+    },
+    {
+      "filePath": "\/Users\/m.skrypchenko\/Downloads\/tude\/Tude\/Bidders\/PrebidConfig.swift",
+      "kind": "IntegerLiteral",
+      "offset": 289,
+      "length": 4,
+      "value": "3000"
+    },
+    {
+      "filePath": "\/Users\/m.skrypchenko\/Downloads\/tude\/Tude\/Bidders\/PrebidConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 328,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/m.skrypchenko\/Downloads\/tude\/Tude\/Bidders\/PrebidConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 380,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/m.skrypchenko\/Downloads\/tude\/Tude\/ConfigModel.swift",
+      "kind": "StringLiteral",
+      "offset": 274,
+      "length": 11,
+      "value": "\"accountId\""
+    },
+    {
+      "filePath": "\/Users\/m.skrypchenko\/Downloads\/tude\/Tude\/ConfigModel.swift",
+      "kind": "StringLiteral",
+      "offset": 310,
+      "length": 10,
+      "value": "\"configId\""
+    },
+    {
+      "filePath": "\/Users\/m.skrypchenko\/Downloads\/tude\/Tude\/ConfigModel.swift",
+      "kind": "StringLiteral",
+      "offset": 274,
+      "length": 11,
+      "value": "\"accountId\""
+    },
+    {
+      "filePath": "\/Users\/m.skrypchenko\/Downloads\/tude\/Tude\/ConfigModel.swift",
+      "kind": "StringLiteral",
+      "offset": 310,
+      "length": 10,
+      "value": "\"configId\""
+    },
+    {
+      "filePath": "\/Users\/m.skrypchenko\/Downloads\/tude\/Tude\/ConfigModel.swift",
+      "kind": "StringLiteral",
+      "offset": 888,
+      "length": 10,
+      "value": "\"adUnitId\""
+    },
+    {
+      "filePath": "\/Users\/m.skrypchenko\/Downloads\/tude\/Tude\/ConfigModel.swift",
+      "kind": "StringLiteral",
+      "offset": 923,
+      "length": 10,
+      "value": "\"configId\""
+    },
+    {
+      "filePath": "\/Users\/m.skrypchenko\/Downloads\/tude\/Tude\/ConfigModel.swift",
+      "kind": "StringLiteral",
+      "offset": 888,
+      "length": 10,
+      "value": "\"adUnitId\""
+    },
+    {
+      "filePath": "\/Users\/m.skrypchenko\/Downloads\/tude\/Tude\/ConfigModel.swift",
+      "kind": "StringLiteral",
+      "offset": 923,
+      "length": 10,
+      "value": "\"configId\""
+    },
+    {
+      "filePath": "\/Users\/m.skrypchenko\/Downloads\/tude\/Tude\/ConfigModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1170,
+      "length": 17,
+      "value": "\"storedRequestId\""
+    },
+    {
+      "filePath": "\/Users\/m.skrypchenko\/Downloads\/tude\/Tude\/ConfigModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1170,
+      "length": 17,
+      "value": "\"storedRequestId\""
+    },
+    {
+      "filePath": "\/Users\/m.skrypchenko\/Downloads\/tude\/Tude\/AdTypes\/display\/BannerAd.swift",
+      "kind": "StringLiteral",
+      "offset": 103,
+      "length": 16,
+      "value": "\"Tude Banner Ad\""
+    },
+    {
+      "filePath": "\/Users\/m.skrypchenko\/Downloads\/tude\/Tude\/AdTypes\/display\/BannerAd.swift",
+      "kind": "StringLiteral",
+      "offset": 256,
+      "length": 91,
+      "value": "\"Creating new banner ad configId=\""
+    },
+    {
+      "filePath": "\/Users\/m.skrypchenko\/Downloads\/tude\/Tude\/AdTypes\/display\/BannerAd.swift",
+      "kind": "StringLiteral",
+      "offset": 307,
+      "length": 1,
+      "value": "\", w=\""
+    },
+    {
+      "filePath": "\/Users\/m.skrypchenko\/Downloads\/tude\/Tude\/AdTypes\/display\/BannerAd.swift",
+      "kind": "StringLiteral",
+      "offset": 326,
+      "length": 1,
+      "value": "\", h=\""
+    },
+    {
+      "filePath": "\/Users\/m.skrypchenko\/Downloads\/tude\/Tude\/AdTypes\/display\/BannerAd.swift",
+      "kind": "StringLiteral",
+      "offset": 346,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/m.skrypchenko\/Downloads\/tude\/Tude\/AdTypes\/display\/BannerAd.swift",
+      "kind": "StringLiteral",
+      "offset": 540,
+      "length": 90,
+      "value": "\"Created new banner ad configId=\""
+    },
+    {
+      "filePath": "\/Users\/m.skrypchenko\/Downloads\/tude\/Tude\/AdTypes\/display\/BannerAd.swift",
+      "kind": "StringLiteral",
+      "offset": 590,
+      "length": 1,
+      "value": "\", w=\""
+    },
+    {
+      "filePath": "\/Users\/m.skrypchenko\/Downloads\/tude\/Tude\/AdTypes\/display\/BannerAd.swift",
+      "kind": "StringLiteral",
+      "offset": 609,
+      "length": 1,
+      "value": "\", h=\""
+    },
+    {
+      "filePath": "\/Users\/m.skrypchenko\/Downloads\/tude\/Tude\/AdTypes\/display\/BannerAd.swift",
+      "kind": "StringLiteral",
+      "offset": 629,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/m.skrypchenko\/Downloads\/tude\/Tude\/AdTypes\/video\/RewardedVideoAdConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 25,
+      "length": 21,
+      "value": "\"Tude.RewardedVideoAdConfig\""
+    },
+    {
+      "filePath": "\/Users\/m.skrypchenko\/Downloads\/tude\/Tude\/View\/BannerAdView.swift",
+      "kind": "StringLiteral",
+      "offset": 141,
+      "length": 21,
+      "value": "\"Tude Banner Ad View\""
+    },
+    {
+      "filePath": "\/Users\/m.skrypchenko\/Downloads\/tude\/Tude\/View\/BannerAdView.swift",
+      "kind": "StringLiteral",
+      "offset": 1673,
+      "length": 17,
+      "value": "\"No config found\""
+    },
+    {
+      "filePath": "\/Users\/m.skrypchenko\/Downloads\/tude\/Tude\/View\/BannerAdView.swift",
+      "kind": "StringLiteral",
+      "offset": 1748,
+      "length": 71,
+      "value": "\"initialize adUnitId=\""
+    },
+    {
+      "filePath": "\/Users\/m.skrypchenko\/Downloads\/tude\/Tude\/View\/BannerAdView.swift",
+      "kind": "StringLiteral",
+      "offset": 1786,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/m.skrypchenko\/Downloads\/tude\/Tude\/View\/BannerAdView.swift",
+      "kind": "StringLiteral",
+      "offset": 1789,
+      "length": 1,
+      "value": "\", configId=\""
+    },
+    {
+      "filePath": "\/Users\/m.skrypchenko\/Downloads\/tude\/Tude\/View\/BannerAdView.swift",
+      "kind": "StringLiteral",
+      "offset": 1818,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/m.skrypchenko\/Downloads\/tude\/Tude\/View\/BannerAdView.swift",
+      "kind": "Dictionary",
+      "offset": 2063,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/m.skrypchenko\/Downloads\/tude\/Tude\/View\/BannerAdView.swift",
+      "kind": "StringLiteral",
+      "offset": 2240,
+      "length": 60,
+      "value": "\"Fetch ad status code=\""
+    },
+    {
+      "filePath": "\/Users\/m.skrypchenko\/Downloads\/tude\/Tude\/View\/BannerAdView.swift",
+      "kind": "StringLiteral",
+      "offset": 2271,
+      "length": 3,
+      "value": "\" for adUnitId=\""
+    },
+    {
+      "filePath": "\/Users\/m.skrypchenko\/Downloads\/tude\/Tude\/View\/BannerAdView.swift",
+      "kind": "StringLiteral",
+      "offset": 2299,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/m.skrypchenko\/Downloads\/tude\/Tude\/View\/BannerAdView.swift",
+      "kind": "StringLiteral",
+      "offset": 2862,
+      "length": 25,
+      "value": "\"Building banner ad unit\""
+    },
+    {
+      "filePath": "\/Users\/m.skrypchenko\/Downloads\/tude\/Tude\/View\/BannerAdView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3179,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/m.skrypchenko\/Downloads\/tude\/Tude\/AdTypes\/video\/RewardedVideoAd.swift",
+      "kind": "StringLiteral",
+      "offset": 385,
+      "length": 18,
+      "value": "\"Tude Rewarded Ad\""
+    },
+    {
+      "filePath": "\/Users\/m.skrypchenko\/Downloads\/tude\/Tude\/AdTypes\/video\/RewardedVideoAd.swift",
+      "kind": "BooleanLiteral",
+      "offset": 556,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/m.skrypchenko\/Downloads\/tude\/Tude\/AdTypes\/video\/RewardedVideoAd.swift",
+      "kind": "StringLiteral",
+      "offset": 1159,
+      "length": 165,
+      "value": "\"    Creating new rewarded video ad configId=\""
+    },
+    {
+      "filePath": "\/Users\/m.skrypchenko\/Downloads\/tude\/Tude\/AdTypes\/video\/RewardedVideoAd.swift",
+      "kind": "StringLiteral",
+      "offset": 1237,
+      "length": 1,
+      "value": "\",\n    w=\""
+    },
+    {
+      "filePath": "\/Users\/m.skrypchenko\/Downloads\/tude\/Tude\/AdTypes\/video\/RewardedVideoAd.swift",
+      "kind": "StringLiteral",
+      "offset": 1272,
+      "length": 1,
+      "value": "\",\n    h=\""
+    },
+    {
+      "filePath": "\/Users\/m.skrypchenko\/Downloads\/tude\/Tude\/AdTypes\/video\/RewardedVideoAd.swift",
+      "kind": "StringLiteral",
+      "offset": 1308,
+      "length": 4498,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/m.skrypchenko\/Downloads\/tude\/Tude\/AdTypes\/video\/RewardedVideoAd.swift",
+      "kind": "StringLiteral",
+      "offset": 1502,
+      "length": 98,
+      "value": "\"Created new rewarded video ad configId=\""
+    },
+    {
+      "filePath": "\/Users\/m.skrypchenko\/Downloads\/tude\/Tude\/AdTypes\/video\/RewardedVideoAd.swift",
+      "kind": "StringLiteral",
+      "offset": 1560,
+      "length": 1,
+      "value": "\", w=\""
+    },
+    {
+      "filePath": "\/Users\/m.skrypchenko\/Downloads\/tude\/Tude\/AdTypes\/video\/RewardedVideoAd.swift",
+      "kind": "StringLiteral",
+      "offset": 1579,
+      "length": 1,
+      "value": "\", h=\""
+    },
+    {
+      "filePath": "\/Users\/m.skrypchenko\/Downloads\/tude\/Tude\/AdTypes\/video\/RewardedVideoAd.swift",
+      "kind": "StringLiteral",
+      "offset": 1599,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/m.skrypchenko\/Downloads\/tude\/Tude\/AdTypes\/video\/RewardedVideoAd.swift",
+      "kind": "Dictionary",
+      "offset": 1799,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/m.skrypchenko\/Downloads\/tude\/Tude\/AdTypes\/video\/RewardedVideoAd.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2265,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/m.skrypchenko\/Downloads\/tude\/Tude\/AdTypes\/video\/RewardedVideoAd.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2610,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/m.skrypchenko\/Downloads\/tude\/Tude\/AdTypes\/video\/RewardedVideoAd.swift",
+      "kind": "StringLiteral",
+      "offset": 2654,
+      "length": 63,
+      "value": "\"Loaded rewarded video ad for adUnitId=\""
+    },
+    {
+      "filePath": "\/Users\/m.skrypchenko\/Downloads\/tude\/Tude\/AdTypes\/video\/RewardedVideoAd.swift",
+      "kind": "StringLiteral",
+      "offset": 2716,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/m.skrypchenko\/Downloads\/tude\/Tude\/AdTypes\/video\/RewardedVideoAd.swift",
+      "kind": "StringLiteral",
+      "offset": 2912,
+      "length": 44,
+      "value": "\"Rewarded video ad failed to load: \""
+    },
+    {
+      "filePath": "\/Users\/m.skrypchenko\/Downloads\/tude\/Tude\/AdTypes\/video\/RewardedVideoAd.swift",
+      "kind": "StringLiteral",
+      "offset": 2955,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/m.skrypchenko\/Downloads\/tude\/Tude\/AdTypes\/video\/RewardedVideoAd.swift",
+      "kind": "Array",
+      "offset": 4085,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/m.skrypchenko\/Downloads\/tude\/Tude\/AdTypes\/video\/RewardedVideoAd.swift",
+      "kind": "StringLiteral",
+      "offset": 333,
+      "length": 15,
+      "value": "\"Tude.RewardedVideoAd\""
+    },
+    {
+      "filePath": "\/Users\/m.skrypchenko\/Downloads\/tude\/Tude\/AdTypes\/video\/RewardedVideoAd.swift",
+      "kind": "StringLiteral",
+      "offset": 5647,
+      "length": 13,
+      "value": "\"Tude.RewardHandler\""
+    },
+    {
+      "filePath": "\/Users\/m.skrypchenko\/Downloads\/tude\/Tude\/Bidders\/Prebid.swift",
+      "kind": "BooleanLiteral",
+      "offset": 151,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/m.skrypchenko\/Downloads\/tude\/Tude\/Bidders\/Prebid.swift",
+      "kind": "StringLiteral",
+      "offset": 251,
+      "length": 17,
+      "value": "\"Starting prebid\""
+    },
+    {
+      "filePath": "\/Users\/m.skrypchenko\/Downloads\/tude\/Tude\/Bidders\/Prebid.swift",
+      "kind": "StringLiteral",
+      "offset": 370,
+      "length": 73,
+      "value": "\"Setting server account ID config.account=\""
+    },
+    {
+      "filePath": "\/Users\/m.skrypchenko\/Downloads\/tude\/Tude\/Bidders\/Prebid.swift",
+      "kind": "StringLiteral",
+      "offset": 442,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/m.skrypchenko\/Downloads\/tude\/Tude\/Bidders\/Prebid.swift",
+      "kind": "StringLiteral",
+      "offset": 571,
+      "length": 31,
+      "value": "\"Running prebid in debug mode.\""
+    },
+    {
+      "filePath": "\/Users\/m.skrypchenko\/Downloads\/tude\/Tude\/Bidders\/Prebid.swift",
+      "kind": "BooleanLiteral",
+      "offset": 641,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/m.skrypchenko\/Downloads\/tude\/Tude\/Bidders\/Prebid.swift",
+      "kind": "StringLiteral",
+      "offset": 683,
+      "length": 68,
+      "value": "\"Setting server host config.host=\""
+    },
+    {
+      "filePath": "\/Users\/m.skrypchenko\/Downloads\/tude\/Tude\/Bidders\/Prebid.swift",
+      "kind": "StringLiteral",
+      "offset": 750,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/m.skrypchenko\/Downloads\/tude\/Tude\/Bidders\/Prebid.swift",
+      "kind": "StringLiteral",
+      "offset": 914,
+      "length": 30,
+      "value": "\"setCustomPrebidServer failed\""
+    },
+    {
+      "filePath": "\/Users\/m.skrypchenko\/Downloads\/tude\/Tude\/Bidders\/Prebid.swift",
+      "kind": "StringLiteral",
+      "offset": 992,
+      "length": 75,
+      "value": "\"Setting timeout config.timeout=\""
+    },
+    {
+      "filePath": "\/Users\/m.skrypchenko\/Downloads\/tude\/Tude\/Bidders\/Prebid.swift",
+      "kind": "StringLiteral",
+      "offset": 1066,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/m.skrypchenko\/Downloads\/tude\/Tude\/Bidders\/Prebid.swift",
+      "kind": "StringLiteral",
+      "offset": 1158,
+      "length": 55,
+      "value": "\"Setting share geo location=\""
+    },
+    {
+      "filePath": "\/Users\/m.skrypchenko\/Downloads\/tude\/Tude\/Bidders\/Prebid.swift",
+      "kind": "StringLiteral",
+      "offset": 1212,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/m.skrypchenko\/Downloads\/tude\/Tude\/Bidders\/Prebid.swift",
+      "kind": "StringLiteral",
+      "offset": 1357,
+      "length": 25,
+      "value": "\"Setting custom headers)\""
+    },
+    {
+      "filePath": "\/Users\/m.skrypchenko\/Downloads\/tude\/Tude\/Bidders\/Prebid.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1648,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/m.skrypchenko\/Downloads\/tude\/Tude\/Bidders\/Prebid.swift",
+      "kind": "StringLiteral",
+      "offset": 1779,
+      "length": 37,
+      "value": "\"Prebid SDK successfully initialized\""
+    },
+    {
+      "filePath": "\/Users\/m.skrypchenko\/Downloads\/tude\/Tude\/Bidders\/Prebid.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1859,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/m.skrypchenko\/Downloads\/tude\/Tude\/Bidders\/Prebid.swift",
+      "kind": "StringLiteral",
+      "offset": 1933,
+      "length": 52,
+      "value": "\"An error occurred during Prebid SDK initialization\""
+    },
+    {
+      "filePath": "\/Users\/m.skrypchenko\/Downloads\/tude\/Tude\/Bidders\/Prebid.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2028,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/m.skrypchenko\/Downloads\/tude\/Tude\/Bidders\/Prebid.swift",
+      "kind": "StringLiteral",
+      "offset": 2116,
+      "length": 72,
+      "value": "\"An error occurred during Prebid SDK initialization serverStatusWarning\""
+    },
+    {
+      "filePath": "\/Users\/m.skrypchenko\/Downloads\/tude\/Tude\/Bidders\/Prebid.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2231,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/m.skrypchenko\/Downloads\/tude\/Tude\/Bidders\/Prebid.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2312,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/m.skrypchenko\/Downloads\/tude\/Tude\/AdTypes\/display\/BannerAdConfig.swift",
+      "kind": "IntegerLiteral",
+      "offset": 89,
+      "length": 5,
+      "value": "30000"
+    },
+    {
+      "filePath": "\/Users\/m.skrypchenko\/Downloads\/tude\/Tude\/AdTypes\/display\/BannerAdConfig.swift",
+      "kind": "IntegerLiteral",
+      "offset": 487,
+      "length": 5,
+      "value": "30000"
+    },
+    {
+      "filePath": "\/Users\/m.skrypchenko\/Downloads\/tude\/Tude\/AdTypes\/display\/BannerAdConfig.swift",
+      "kind": "IntegerLiteral",
+      "offset": 995,
+      "length": 5,
+      "value": "30000"
+    },
+    {
+      "filePath": "\/Users\/m.skrypchenko\/Downloads\/tude\/Tude\/AdTypes\/display\/BannerAdConfig.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1465,
+      "length": 5,
+      "value": "30000"
+    },
+    {
+      "filePath": "\/Users\/m.skrypchenko\/Downloads\/tude\/Tude\/Utils\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 215,
+      "length": 9,
+      "value": "\"general\""
+    },
+    {
+      "filePath": "\/Users\/m.skrypchenko\/Downloads\/tude\/Tude\/Utils\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 421,
+      "length": 12,
+      "value": "\"%{public}@\""
+    },
+    {
+      "filePath": "\/Users\/m.skrypchenko\/Downloads\/tude\/Tude\/Utils\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 527,
+      "length": 12,
+      "value": "\"%{public}@\""
+    },
+    {
+      "filePath": "\/Users\/m.skrypchenko\/Downloads\/tude\/Tude\/Utils\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 638,
+      "length": 12,
+      "value": "\"%{public}@\""
+    },
+    {
+      "filePath": "\/Users\/m.skrypchenko\/Downloads\/tude\/Tude\/AdTypes\/BaseAdConfig.swift",
+      "kind": "Dictionary",
+      "offset": 192,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/m.skrypchenko\/Downloads\/tude\/Tude\/Bidders\/GAMWrapper.swift",
+      "kind": "StringLiteral",
+      "offset": 85,
+      "length": 10,
+      "value": "\"Tude GAM\""
+    },
+    {
+      "filePath": "\/Users\/m.skrypchenko\/Downloads\/tude\/Tude\/Bidders\/GAMWrapper.swift",
+      "kind": "StringLiteral",
+      "offset": 141,
+      "length": 28,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/m.skrypchenko\/Downloads\/tude\/Tude\/Bidders\/GAMWrapper.swift",
+      "kind": "StringLiteral",
+      "offset": 150,
+      "length": 1,
+      "value": "\": Initializing GAM\""
+    },
+    {
+      "filePath": "\/Users\/m.skrypchenko\/Downloads\/tude\/Tude\/Bidders\/GAMWrapper.swift",
+      "kind": "StringLiteral",
+      "offset": 266,
+      "length": 37,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/m.skrypchenko\/Downloads\/tude\/Tude\/Bidders\/GAMWrapper.swift",
+      "kind": "StringLiteral",
+      "offset": 275,
+      "length": 1,
+      "value": "\": Finished initializing GAM\""
+    },
+    {
+      "filePath": "\/Users\/m.skrypchenko\/Downloads\/tude\/Tude\/Bidders\/GAMWrapper.swift",
+      "kind": "StringLiteral",
+      "offset": 450,
+      "length": 44,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/m.skrypchenko\/Downloads\/tude\/Tude\/Bidders\/GAMWrapper.swift",
+      "kind": "StringLiteral",
+      "offset": 459,
+      "length": 1,
+      "value": "\": Gam status=\""
+    },
+    {
+      "filePath": "\/Users\/m.skrypchenko\/Downloads\/tude\/Tude\/Bidders\/GAMWrapper.swift",
+      "kind": "StringLiteral",
+      "offset": 493,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/m.skrypchenko\/Downloads\/tude\/Tude\/Bidders\/GAMWrapper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 511,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/m.skrypchenko\/Downloads\/tude\/Tude\/TudeFetch.swift",
+      "kind": "StringLiteral",
+      "offset": 68,
+      "length": 41,
+      "value": "\"https:\/\/api.prebid-server.com\/publisher\""
+    },
+    {
+      "filePath": "\/Users\/m.skrypchenko\/Downloads\/tude\/Tude\/TudeFetch.swift",
+      "kind": "StringLiteral",
+      "offset": 426,
+      "length": 29,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/m.skrypchenko\/Downloads\/tude\/Tude\/TudeFetch.swift",
+      "kind": "StringLiteral",
+      "offset": 434,
+      "length": 1,
+      "value": "\"\/\""
+    },
+    {
+      "filePath": "\/Users\/m.skrypchenko\/Downloads\/tude\/Tude\/TudeFetch.swift",
+      "kind": "StringLiteral",
+      "offset": 447,
+      "length": 1,
+      "value": "\"\/config\""
+    },
+    {
+      "filePath": "\/Users\/m.skrypchenko\/Downloads\/tude\/Tude\/TudeFetch.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1152,
+      "length": 1,
+      "value": "0"
+    }
+  ]
+}
