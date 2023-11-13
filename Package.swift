@@ -9,7 +9,7 @@ let package = Package(
     products: [
         .library(
             name: "Tude",
-            targets: ["TudeSDK"]
+            targets: ["_Tude"]
         ),
     ],
     dependencies: [
@@ -17,7 +17,7 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "TudeSDK",
+            name: "_Tude",
             dependencies: [
                 "Tude",
                 "PrebidMobile",
