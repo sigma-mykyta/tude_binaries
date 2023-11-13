@@ -331,8 +331,10 @@ SWIFT_CLASS("_TtC4Tude12BannerAdView")
 @end
 
 
-SWIFT_CLASS("_TtC4Tude13RewardHandler")
-@interface RewardHandler : NSObject
+SWIFT_CLASS("_TtC4Tude10RewardItem")
+@interface RewardItem : NSObject
+@property (nonatomic, readonly, copy) NSString * _Nonnull type;
+@property (nonatomic, readonly) double amount;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
@@ -350,7 +352,7 @@ SWIFT_CLASS("_TtC4Tude15RewardedVideoAd")
 - (void)preload:(UIViewController * _Nonnull)vc;
 - (void)preload:(UIViewController * _Nonnull)vc onAdLoaded:(void (^ _Nonnull)(RewardedVideoAd * _Nonnull))onAdLoaded;
 - (void)render:(UIViewController * _Nonnull)vc;
-- (void)render:(UIViewController * _Nonnull)vc rewardHandler:(RewardHandler * _Nonnull)rewardHandler;
+- (void)render:(UIViewController * _Nonnull)vc rewardHandler:(void (^ _Nonnull)(RewardItem * _Nonnull))rewardHandler;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
